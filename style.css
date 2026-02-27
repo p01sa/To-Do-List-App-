@@ -1,0 +1,43 @@
+#taskInput {
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+   background: rgba(255, 255, 255, 0.8); /* خلفية شبه شفافة حتى تبين فوق الصورة */
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url("5cdb64814db7b5578022cf33707ee9c6.jpg") no-repeat center center fixed; 
+  background-size: cover; /* يخلي الصورة تغطي الشاشة كلها */
+  color: #333;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
